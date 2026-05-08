@@ -1,0 +1,11 @@
+import React from 'react';
+import { TemplatePage } from './TemplatePage';
+
+export function ConnectPage() {
+  return (
+    <TemplatePage 
+      title="Connect" 
+      subtitle="Establish a new secure laboratory node. Synchronize your telemetry sensors and join the collective intelligence." 
+    />
+  );
+}
